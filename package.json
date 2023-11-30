@@ -1,0 +1,64 @@
+{
+  "name": "@scayle/unstorage-compression-driver",
+  "version": "0.1.0",
+  "description": "Compression driver for unstorage",
+  "author": "SCAYLE Commerce Engine",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./types": {
+      "types": "./dist/types.d.ts",
+      "import": "./dist/rpc.js"
+    },
+    "./compression": {
+      "types": "./dist/compression.d.ts",
+      "import": "./dist/compression.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "CHANGELOG.md",
+    "./dist/*.js",
+    "./dist/*.d.ts"
+  ],
+  "scripts": {
+    "build": "yarn tsc -p tsconfig.build.json",
+    "format": "prettier --ignore-unknown --log-level warn --check .",
+    "format:fix": "prettier --ignore-unknown --log-level warn --write .",
+    "lint": "eslint . --format gitlab",
+    "lint:fix": "eslint . --fix",
+    "test": "vitest run",
+    "test:ci": "vitest run",
+    "test:watch": "vitest watch"
+  },
+  "peerDependencies": {
+    "unstorage": "^1.10.1"
+  },
+  "dependencies": {
+    "destr": "2.0.2",
+    "unstorage": "1.10.1"
+  },
+  "devDependencies": {
+    "@scayle/eslint-config-storefront": "3.2.5",
+    "@scayle/prettier-config-storefront": "2.0.2",
+    "eslint": "8.55.0",
+    "eslint-formatter-gitlab": "5.1.0",
+    "@faker-js/faker": "8.3.1",
+    "unstorage": "1.10.1",
+    "prettier": "3.0.0",
+    "typescript": "5.3.2",
+    "vite": "5.0.5",
+    "vitest": "1.0.1"
+  },
+  "volta": {
+    "node": "20.10.0"
+  }
+}
