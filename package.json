@@ -47,7 +47,7 @@
     "unstorage": "1.10.1"
   },
   "devDependencies": {
-    "@scayle/eslint-config-storefront": "3.2.5",
+    "@scayle/eslint-config-storefront": "3.2.6",
     "@scayle/prettier-config-storefront": "2.0.2",
     "eslint": "8.55.0",
     "eslint-formatter-gitlab": "5.1.0",
