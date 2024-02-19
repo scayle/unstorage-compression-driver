@@ -29,9 +29,6 @@ export const compressionDriver = defineDriver(
         const compressedValue = (await driver.getItem(key, _opts)) as string
 
         if (!compressedValue) {
-          console.warn(
-            'UnstorageCompressionDriver: Unable to get value from driver.setItem',
-          )
           return
         }
 
@@ -41,9 +38,6 @@ export const compressionDriver = defineDriver(
         const compressedValue = (await compress(value, encoding)) ?? null
 
         if (!compressedValue || typeof compressedValue !== 'string') {
-          console.warn(
-            'UnstorageCompressionDriver: Unable to pass non-string value to driver.setItem',
-          )
           return
         }
 

@@ -18,8 +18,8 @@ export const compress = async (
   try {
     return (await compression(JSON.stringify(value))).toString('base64')
   } catch (error) {
-    console.warn('UnstorageCompressionDriver: Unable to compress data', error)
-    return undefined // Explicitly return undefined if value could not be decoded
+    console.warn('[UnstorageCompressionDriver] Unable to compress data', error)
+    return undefined // Explicitly return `undefined`, as per `ValueStorage` type definition, if value could not be decoded
   }
 }
 
@@ -40,7 +40,10 @@ export const decompress = async (
     ).toString()
     return destr(decompressedData) // faster & secure JSON.parse alternative - https://github.com/unjs/destr
   } catch (error) {
-    console.warn('UnstorageCompressionDriver: Unable to decompress data', error)
-    return undefined // Explicitly return undefined if value could not be decoded
+    console.warn(
+      '[UnstorageCompressionDriver] Unable to decompress data',
+      error,
+    )
+    return undefined // Explicitly return `undefined`, as per `ValueStorage` type definition, if value could not be decoded
   }
 }
