@@ -1,5 +1,11 @@
 # @scayle/unstorage-compression-driver
 
+## 0.1.2
+
+### Patch Changes
+
+- Removed unnecessary warning message that indicated that no cache value has been available
+
 ## 0.1.1
 
 ### Patch Changes
