@@ -43,7 +43,7 @@
     "unstorage": "^1.10.1"
   },
   "dependencies": {
-    "destr": "2.0.2",
+    "destr": "2.0.3",
     "unstorage": "1.10.1"
   },
   "devDependencies": {
