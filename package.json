@@ -54,7 +54,7 @@
     "eslint-formatter-gitlab": "5.1.0",
     "@faker-js/faker": "8.4.1",
     "unstorage": "1.10.2",
-    "typescript": "5.4.4",
+    "typescript": "5.4.5",
     "vite": "5.2.8",
     "vitest": "1.4.0"
   },
