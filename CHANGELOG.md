@@ -1,5 +1,11 @@
 # @scayle/unstorage-compression-driver
 
+## 0.1.3
+
+### Patch Changes
+
+- Format code with dprint
+
 ## 0.1.2
 
 ### Patch Changes
