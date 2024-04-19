@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest'
+import { describe, expect, it } from 'vitest'
 import { createMockProductDataList } from '../test/utils/createMockData'
 import { compress, decompress } from './compression'
 
