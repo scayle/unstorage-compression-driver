@@ -75,7 +75,9 @@ and [zlib.brotliDecompress](https://nodejs.org/docs/latest-v20.x/api/zlib.html#z
 
 - [node:zlib / BrotliOptions](https://nodejs.org/docs/latest-v20.x/api/zlib.html#class-brotlioptions)
 
-...
+## License
+
+Licensed under the [MIT License](https://opensource.org/license/mit/)
 
 <!-- Badges -->
 
