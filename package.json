@@ -1,6 +1,6 @@
 {
   "name": "@scayle/unstorage-compression-driver",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Compression driver for unstorage",
   "author": "SCAYLE Commerce Engine",
   "license": "MIT",
@@ -47,7 +47,7 @@
     "unstorage": "1.12.0"
   },
   "devDependencies": {
-    "@scayle/eslint-config-storefront": "4.3.0",
+    "@scayle/eslint-config-storefront": "4.3.1",
     "@scayle/prettier-config-storefront": "2.0.2",
     "dprint": "0.47.2",
     "eslint": "9.12.0",
