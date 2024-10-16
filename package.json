@@ -36,7 +36,7 @@
     "lint": "eslint . --format gitlab",
     "lint:fix": "eslint . --fix",
     "test": "vitest run",
-    "test:ci": "vitest run",
+    "test:ci": "vitest --run --passWithNoTests --coverage --reporter=default --reporter=junit --outputFile=./junit.xml",
     "test:watch": "vitest watch"
   },
   "peerDependencies": {
