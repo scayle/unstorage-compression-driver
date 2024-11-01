@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "destr": "2.0.3",
-    "unstorage": "1.13.0"
+    "unstorage": "1.13.1"
   },
   "devDependencies": {
     "@scayle/eslint-config-storefront": "4.3.2",
@@ -53,7 +53,7 @@
     "eslint": "9.14.0",
     "eslint-formatter-gitlab": "5.1.0",
     "@faker-js/faker": "9.0.3",
-    "unstorage": "1.13.0",
+    "unstorage": "1.13.1",
     "typescript": "5.6.3",
     "vite": "5.4.10",
     "vitest": "2.1.4"
