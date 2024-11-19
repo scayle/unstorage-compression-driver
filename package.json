@@ -50,7 +50,7 @@
     "@scayle/eslint-config-storefront": "4.3.2",
     "@scayle/prettier-config-storefront": "2.0.2",
     "dprint": "0.47.5",
-    "eslint": "9.14.0",
+    "eslint": "9.15.0",
     "eslint-formatter-gitlab": "5.1.0",
     "@faker-js/faker": "9.0.3",
     "unstorage": "1.13.1",
