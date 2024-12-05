@@ -12,25 +12,21 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "default": "./dist/index.js"
-    },
-    "./types": {
-      "types": "./dist/types.d.ts",
-      "import": "./dist/rpc.js"
-    },
-    "./compression": {
-      "types": "./dist/compression.d.ts",
-      "import": "./dist/compression.js"
+      "default": "./dist/index.mjs",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
     }
   },
-  "main": "./dist/index.js",
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
   "files": [
     "CHANGELOG.md",
     "./dist/*.js",
     "./dist/*.d.ts"
   ],
   "scripts": {
-    "build": "yarn tsc -p tsconfig.build.json",
+    "build": "unbuild",
+    "verify-packaging": "attw --pack .",
     "format": "dprint check",
     "format:fix": "dprint fmt",
     "lint": "eslint . --format gitlab",
@@ -47,12 +43,14 @@
     "unstorage": "1.13.1"
   },
   "devDependencies": {
+    "@arethetypeswrong/cli": "0.17.0",
     "@scayle/eslint-config-storefront": "4.3.2",
     "@scayle/prettier-config-storefront": "2.0.2",
     "dprint": "0.47.6",
     "eslint": "9.16.0",
     "eslint-formatter-gitlab": "5.1.0",
     "@faker-js/faker": "9.0.3",
+    "unbuild": "2.0.0",
     "unstorage": "1.13.1",
     "typescript": "5.6.3",
     "vite": "5.4.11",
