@@ -43,7 +43,7 @@
     "unstorage": "1.13.1"
   },
   "devDependencies": {
-    "@arethetypeswrong/cli": "0.17.0",
+    "@arethetypeswrong/cli": "0.17.1",
     "@scayle/eslint-config-storefront": "4.3.2",
     "@scayle/prettier-config-storefront": "2.0.2",
     "dprint": "0.47.6",
