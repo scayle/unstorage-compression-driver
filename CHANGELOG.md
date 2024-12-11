@@ -1,5 +1,15 @@
 # @scayle/unstorage-compression-driver
 
+## 0.2.0
+
+### Minor Changes
+
+- Resolved warnings with the types and exports configuration reported by `AreTheTypesWrong`[https://github.com/arethetypeswrong/arethetypeswrong.github.io]. This was done as a preventative measure to protect against potential ESM or TypeScript issues.
+
+  Additionally, we now build the library with `unbuild` rather than `tsc`.
+
+  This is essentially an internal refactor and should have no user-visible changes. However, as part of this change, the `compression` and `types` export configurations were removed from `package.json`. The exports were unused, but are mentioned here as it could possibly result in a breaking change.
+
 ## 0.1.5
 
 ### Patch Changes
