@@ -1,5 +1,11 @@
 # @scayle/unstorage-compression-driver
 
+## 0.2.1
+
+### Patch Changes
+
+- Fix publishing error which caused some files to be missing
+
 ## 0.2.0
 
 ### Minor Changes
