@@ -21,8 +21,7 @@
   "types": "./dist/index.d.ts",
   "files": [
     "CHANGELOG.md",
-    "./dist/*.js",
-    "./dist/*.d.ts"
+    "dist/**"
   ],
   "scripts": {
     "build": "unbuild",
