@@ -1,6 +1,6 @@
 {
   "name": "@scayle/unstorage-compression-driver",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Compression driver for unstorage",
   "author": "SCAYLE Commerce Engine",
   "license": "MIT",
