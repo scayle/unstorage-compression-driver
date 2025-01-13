@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "0.17.2",
-    "@scayle/eslint-config-storefront": "4.4.0",
+    "@scayle/eslint-config-storefront": "4.4.1",
     "@scayle/prettier-config-storefront": "2.0.2",
     "dprint": "0.48.0",
     "eslint": "9.17.0",
