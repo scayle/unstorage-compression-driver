@@ -51,7 +51,7 @@
     "unbuild": "3.3.1",
     "unstorage": "1.14.4",
     "typescript": "5.7.3",
-    "vite": "5.4.11",
+    "vite": "5.4.12",
     "vitest": "2.1.8"
   },
   "volta": {
