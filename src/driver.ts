@@ -1,5 +1,6 @@
 // Compression driver for unstorage
-import { type Driver, defineDriver } from 'unstorage'
+import { defineDriver } from 'unstorage'
+import type { Driver } from 'unstorage'
 import { compress, decompress } from './compression'
 import type { CompressionEncodings } from './types'
 
