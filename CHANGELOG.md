@@ -1,5 +1,11 @@
 # @scayle/unstorage-compression-driver
 
+## 0.2.4
+
+### Patch Changes
+
+- Updated dependency `unstorage@1.14.4` to `unstorage@1.15.0`
+
 ## 0.2.3
 
 ### Patch Changes
