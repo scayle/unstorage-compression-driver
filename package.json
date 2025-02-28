@@ -49,7 +49,7 @@
     "eslint-formatter-gitlab": "5.1.0",
     "unbuild": "3.3.1",
     "unstorage": "1.15.0",
-    "typescript": "5.7.3",
+    "typescript": "5.8.2",
     "vite": "5.4.14",
     "vitest": "2.1.9"
   },
