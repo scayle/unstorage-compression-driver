@@ -8,6 +8,10 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
+  "repository": {
+    "url": "git+https://github.com/scayle/unstorage-compression-driver.git"
+  },
+  "keywords": ["unstorage", "compression"],
   "sideEffects": false,
   "exports": {
     ".": {
