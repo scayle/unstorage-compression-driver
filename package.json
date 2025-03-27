@@ -11,7 +11,10 @@
   "repository": {
     "url": "git+https://github.com/scayle/unstorage-compression-driver.git"
   },
-  "keywords": ["unstorage", "compression"],
+  "keywords": [
+    "unstorage",
+    "compression"
+  ],
   "sideEffects": false,
   "exports": {
     ".": {
@@ -46,7 +49,7 @@
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "0.17.4",
-    "@scayle/eslint-config-storefront": "4.4.1",
+    "@scayle/eslint-config-storefront": "4.5.0",
     "@scayle/prettier-config-storefront": "2.0.2",
     "dprint": "0.49.1",
     "eslint": "9.23.0",
