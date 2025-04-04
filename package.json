@@ -38,7 +38,8 @@
     "lint:fix": "eslint . --fix",
     "test": "vitest run",
     "test:ci": "vitest --run --passWithNoTests --coverage --reporter=default --reporter=junit --outputFile=./coverage/junit.xml",
-    "test:watch": "vitest watch"
+    "test:watch": "vitest watch",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
   },
   "peerDependencies": {
     "unstorage": "^1.10.1"

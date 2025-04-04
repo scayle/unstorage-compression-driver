@@ -9,7 +9,8 @@
     "declaration": true,
     "outDir": "./dist",
     "esModuleInterop": true,
-    "erasableSyntaxOnly": true
+    "erasableSyntaxOnly": true,
+    "isolatedDeclarations": true
   },
 
   "include": ["src", "test"]

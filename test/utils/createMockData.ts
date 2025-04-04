@@ -1,4 +1,10 @@
-export const createMockProductDataList = () => [
+export const createMockProductDataList = (): {
+  _id: string
+  price: string
+  productName: string
+  productDescription: string
+  productMaterial: string
+}[] => [
   {
     _id: '5e92270b-8878-4625-b252-60935621736e',
     price: '€156.45',

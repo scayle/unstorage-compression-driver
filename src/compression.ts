@@ -7,7 +7,7 @@ import type { CompressionEncodings, CompressionPayload } from './types'
 export const compress = async (
   value: CompressionPayload,
   encoding: CompressionEncodings,
-) => {
+): Promise<CompressionPayload | undefined> => {
   if (!encoding || encoding === 'none') {
     return value
   }

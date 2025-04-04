@@ -15,7 +15,9 @@ const DRIVER_NAME = 'compression'
  * @param driver Unstorage driver to be wrapped and passed compressed data
  * @param options CompressionDriver specific options
  */
-export const compressionDriver = defineDriver(
+export const compressionDriver: (
+  opts: CompressionDriverOptions,
+) => Driver<CompressionDriverOptions, any> = defineDriver(
   (options: CompressionDriverOptions): Driver => {
     const driver = options?.passthroughDriver
     const encoding = options?.encoding
