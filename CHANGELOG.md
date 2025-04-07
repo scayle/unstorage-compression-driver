@@ -1,5 +1,11 @@
 # @scayle/unstorage-compression-driver
 
+## 0.2.6
+
+### Patch Changes
+
+- Updated dependency `destr@2.0.3` to `destr@2.0.5`
+
 ## 0.2.5
 
 ### Patch Changes
