@@ -60,7 +60,7 @@
     "unstorage": "1.15.0",
     "typescript": "5.8.3",
     "vite": "6.3.2",
-    "vitest": "3.1.1"
+    "vitest": "3.1.2"
   },
   "volta": {
     "node": "22.14.0"
