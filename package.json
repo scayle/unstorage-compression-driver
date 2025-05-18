@@ -54,7 +54,7 @@
     "@scayle/eslint-config-storefront": "4.5.2",
     "@scayle/prettier-config-storefront": "2.0.2",
     "dprint": "0.49.1",
-    "eslint": "9.26.0",
+    "eslint": "9.27.0",
     "eslint-formatter-gitlab": "6.0.0",
     "unbuild": "3.5.0",
     "unstorage": "1.16.0",
