@@ -19,19 +19,18 @@
   "exports": {
     ".": {
       "import": "./dist/index.mjs",
-      "require": "./dist/index.cjs",
       "default": "./dist/index.mjs"
     }
   },
-  "main": "./dist/index.cjs",
-  "types": "./dist/index.d.cts",
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
   "files": [
     "CHANGELOG.md",
     "dist/**"
   ],
   "scripts": {
     "build": "unbuild",
-    "verify-packaging": "attw --pack .",
+    "verify-packaging": "attw --pack . --profile esm-only",
     "format": "dprint check",
     "format:fix": "dprint fmt",
     "lint": "eslint .",
