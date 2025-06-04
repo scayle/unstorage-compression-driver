@@ -1,5 +1,11 @@
 # @scayle/unstorage-compression-driver
 
+## 1.0.0
+
+### Major Changes
+
+- Drop CommonJS support. The package is now ESM-only. If you are using this package in a Nuxt 3 context, you should have no issues.
+
 ## 0.2.7
 
 ### Patch Changes
