@@ -52,7 +52,7 @@
     "@arethetypeswrong/cli": "0.18.1",
     "@scayle/eslint-config-storefront": "4.5.4",
     "@scayle/prettier-config-storefront": "2.0.2",
-    "@vitest/coverage-v8": "3.2.1",
+    "@vitest/coverage-v8": "3.2.2",
     "dprint": "0.50.0",
     "eslint": "9.28.0",
     "eslint-formatter-gitlab": "6.0.0",
@@ -60,7 +60,7 @@
     "unstorage": "1.16.0",
     "typescript": "5.8.3",
     "vite": "6.3.5",
-    "vitest": "3.2.1"
+    "vitest": "3.2.2"
   },
   "volta": {
     "node": "22.16.0"
