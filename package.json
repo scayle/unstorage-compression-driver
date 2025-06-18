@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "0.18.2",
-    "@scayle/eslint-config-storefront": "4.5.6",
+    "@scayle/eslint-config-storefront": "4.5.7",
     "@scayle/prettier-config-storefront": "2.0.2",
     "@vitest/coverage-v8": "3.2.4",
     "dprint": "0.50.0",
