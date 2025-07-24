@@ -46,7 +46,7 @@
   },
   "dependencies": {
     "destr": "2.0.5",
-    "unstorage": "1.16.0"
+    "unstorage": "1.16.1"
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "0.18.2",
@@ -57,7 +57,7 @@
     "eslint": "9.31.0",
     "eslint-formatter-gitlab": "6.0.1",
     "unbuild": "3.5.0",
-    "unstorage": "1.16.0",
+    "unstorage": "1.16.1",
     "typescript": "5.8.3",
     "vitest": "3.2.4"
   },
