@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitest/config'
+import { vitestCIConfigThreading } from '@scayle/vitest-config-storefront'
 
 export default defineConfig({
   test: {
@@ -7,5 +8,6 @@ export default defineConfig({
       reporter: ['text', 'cobertura'],
       reportsDirectory: 'coverage',
     },
+    ...vitestCIConfigThreading,
   },
 })
