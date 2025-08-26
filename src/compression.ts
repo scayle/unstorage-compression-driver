@@ -1,7 +1,6 @@
 import { promisify } from 'node:util'
 import zlib from 'node:zlib'
 import { Buffer } from 'node:buffer'
-import destr from 'destr'
 import type { CompressionEncodings, CompressionPayload } from './types'
 
 export const compress = async (
@@ -38,7 +37,7 @@ export const decompress = async (
     const decompressedData = (
       await decompression(Buffer.from(value, 'base64'))
     ).toString()
-    return destr(decompressedData) // faster & secure JSON.parse alternative - https://github.com/unjs/destr
+    return JSON.parse(decompressedData)
   } catch (error) {
     console.warn(
       '[UnstorageCompressionDriver] Unable to decompress data',
