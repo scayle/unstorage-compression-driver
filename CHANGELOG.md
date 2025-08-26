@@ -1,5 +1,17 @@
 # @scayle/unstorage-compression-driver
 
+## 1.1.0
+
+### Minor Changes
+
+- Removed `destr` as dependency and and replaced its usage with `JSON.parse` for string to object parsing.
+  Depending on the payload size, this should have marginal positive impact on the overall parsing performance.
+  This is an internal refactoring and does not affect usage.
+
+### Patch Changes
+
+- Removed dependency `destr@2.0.5`
+
 ## 1.0.2
 
 ### Patch Changes
