@@ -1,5 +1,15 @@
 # @scayle/unstorage-compression-driver
 
+## 1.2.0
+
+### Minor Changes
+
+- Added optional OpenTelemetry tracing around compression and decompression events. To enable this feature, add the buildtime environment variable `UNSTORAGE_COMPRESSION_OTEL_TRACE=true`.
+
+### Patch Changes
+
+- Added dependency `@opentelemetry/api@^1.9.0`
+
 ## 1.1.0
 
 ### Minor Changes
