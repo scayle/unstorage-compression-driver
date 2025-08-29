@@ -16,7 +16,7 @@ describe('data compression', () => {
   ;['true', 'false'].forEach(value => {
     describe(`tracing=${value}`, () => {
       beforeAll(() => {
-        process.env.UNSTORAGE_COMPRESSION_TRACE = value
+        process.env.UNSTORAGE_COMPRESSION_OTEL_TRACE = value
       })
       describe('compress()', () => {
         it(`should use encoding 'none' and not compress the payload`, async () => {

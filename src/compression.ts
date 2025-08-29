@@ -21,7 +21,9 @@ export const compress = async (
   const compression = promisify(zlib[encodingMethod])
 
   try {
-    if (process.env.UNSTORAGE_COMPRESSION_TRACE?.toLowerCase() === 'true') {
+    if (
+      process.env.UNSTORAGE_COMPRESSION_OTEL_TRACE?.toLowerCase() === 'true'
+    ) {
       return await tracer.startActiveSpan(
         'compress',
         {},
@@ -66,7 +68,9 @@ export const decompress = async (
   const decompression = promisify(zlib[decodingMethod])
 
   try {
-    if (process.env.UNSTORAGE_COMPRESSION_TRACE?.toLowerCase() === 'true') {
+    if (
+      process.env.UNSTORAGE_COMPRESSION_OTEL_TRACE?.toLowerCase() === 'true'
+    ) {
       const tracer = trace.getTracer(
         'unstorage-compression-driver',
         '__package_version',
