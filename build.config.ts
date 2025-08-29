@@ -1,4 +1,5 @@
 import { defineBuildConfig } from 'unbuild'
+import packageJson from './package.json'
 
 // https://github.com/unjs/unbuild
 export default defineBuildConfig({
@@ -8,6 +9,11 @@ export default defineBuildConfig({
     esbuild: {
       minify: false,
     },
+  },
+
+  replace: {
+    '__package_version': packageJson.version.toString(),
+    '__package_name': packageJson.name,
   },
 
   entries: [
