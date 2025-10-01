@@ -39,6 +39,7 @@
     "test": "vitest run",
     "test:ci": "vitest --run --coverage --reporter=default --reporter=junit --outputFile=./coverage/junit.xml",
     "test:watch": "vitest watch",
+    "test:bench:compression": "NODE_OPTIONS='--expose-gc' jiti test/benchmark/compression.ts",
     "typecheck": "tsc --noEmit -p tsconfig.json"
   },
   "peerDependencies": {
@@ -52,14 +53,17 @@
     "@arethetypeswrong/cli": "0.18.2",
     "@scayle/eslint-config-storefront": "workspace:*",
     "@scayle/prettier-config-storefront": "workspace:*",
+    "@scayle/storefront-api": "workspace:*",
     "@scayle/vitest-config-storefront": "workspace:*",
     "@vitest/coverage-v8": "3.2.4",
     "dprint": "0.50.2",
     "eslint": "9.37.0",
     "eslint-formatter-gitlab": "6.0.1",
+    "jiti": "2.6.1",
+    "tinybench": "5.0.1",
+    "typescript": "5.9.3",
     "unbuild": "3.6.1",
     "unstorage": "1.17.1",
-    "typescript": "5.9.3",
     "vitest": "3.2.4"
   },
   "volta": {
