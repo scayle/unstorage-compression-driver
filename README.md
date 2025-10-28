@@ -78,12 +78,3 @@ and [zlib.brotliDecompress](https://nodejs.org/docs/latest-v20.x/api/zlib.html#z
 ## License
 
 Licensed under the [MIT License](https://opensource.org/license/mit/)
-
-<!-- Badges -->
-
-[npm-version-src]: https://img.shields.io/npm/v/@scayle/unstorage-compression-driver/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-version-href]: https://npmjs.com/package/@scayle/unstorage-compression-driver
-[npm-downloads-src]: https://img.shields.io/npm/dm/@scayle/unstorage-compression-driver.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-downloads-href]: https://npmjs.com/package/@scayle/unstorage-compression-driver
-[license-src]: https://img.shields.io/npm/l/@scayle/unstorage-compression-driver.svg?style=flat&colorA=18181B&colorB=28CF8D
-[license-href]: https://npmjs.com/package/@scayle/unstorage-compression-driver
