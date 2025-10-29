@@ -1,5 +1,11 @@
 # @scayle/unstorage-compression-driver
 
+## 1.2.2
+
+### Patch Changes
+
+- Cleaned up README.md and added CONTRIBUTING.md. No functional changes.
+
 ## 1.2.1
 
 ### Patch Changes
