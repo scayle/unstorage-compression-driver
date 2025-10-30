@@ -64,7 +64,7 @@
     "typescript": "5.9.3",
     "unbuild": "3.6.1",
     "unstorage": "1.17.1",
-    "vitest": "3.2.4"
+    "vitest": "catalog:"
   },
   "volta": {
     "node": "22.21.0"
