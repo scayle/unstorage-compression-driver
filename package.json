@@ -58,7 +58,7 @@
     "@vitest/coverage-v8": "catalog:",
     "dprint": "0.50.2",
     "eslint": "9.39.1",
-    "eslint-formatter-gitlab": "6.0.1",
+    "eslint-formatter-gitlab": "7.0.0",
     "jiti": "2.6.1",
     "tinybench": "5.1.0",
     "typescript": "5.9.3",
