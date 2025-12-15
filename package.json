@@ -57,7 +57,7 @@
     "@scayle/vitest-config-storefront": "workspace:*",
     "@vitest/coverage-v8": "catalog:",
     "dprint": "0.50.2",
-    "eslint": "9.39.1",
+    "eslint": "9.39.2",
     "eslint-formatter-gitlab": "7.0.1",
     "jiti": "2.6.1",
     "tinybench": "5.1.0",
