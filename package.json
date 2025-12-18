@@ -46,27 +46,24 @@
     "unstorage": "^1.10.1"
   },
   "dependencies": {
-    "@opentelemetry/api": "^1.9.0",
-    "unstorage": "1.17.3"
+    "@opentelemetry/api": "catalog:",
+    "unstorage": "catalog:"
   },
   "devDependencies": {
-    "@arethetypeswrong/cli": "0.18.2",
+    "@arethetypeswrong/cli": "catalog:",
     "@scayle/eslint-config-storefront": "workspace:*",
     "@scayle/prettier-config-storefront": "workspace:*",
     "@scayle/storefront-api": "workspace:*",
     "@scayle/vitest-config-storefront": "workspace:*",
     "@vitest/coverage-v8": "catalog:",
-    "dprint": "0.50.2",
-    "eslint": "9.39.2",
-    "eslint-formatter-gitlab": "7.0.1",
+    "dprint": "catalog:",
+    "eslint": "catalog:",
+    "eslint-formatter-gitlab": "catalog:",
     "jiti": "2.6.1",
     "tinybench": "5.1.0",
-    "typescript": "5.9.3",
-    "unbuild": "3.6.1",
-    "unstorage": "1.17.3",
+    "typescript": "catalog:",
+    "unbuild": "catalog:",
+    "unstorage": "catalog:",
     "vitest": "catalog:"
-  },
-  "volta": {
-    "node": "22.21.1"
   }
 }
