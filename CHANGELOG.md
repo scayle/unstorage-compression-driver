@@ -1,5 +1,13 @@
 # @scayle/unstorage-compression-driver
 
+## 1.2.5
+
+### Patch Changes
+
+- Updated dependency `@opentelemetry/api@^1.9.0` to `@opentelemetry/api@catalog:`
+- Updated dependency `unstorage@1.17.3` to `unstorage@catalog:`
+- This is an internal change only. The packages now use the PNPM catalog feature to ensure dependencies use the identical version across packages.
+
 ## 1.2.4
 
 ### Patch Changes
